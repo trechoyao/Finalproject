@@ -1,0 +1,15 @@
+.image-row {
+    display: flex;
+  }
+  
+  /* Optionally, you can add styles for individual images */
+  .image-row img {
+    max-width: 100%; /* Make sure images don't exceed their natural size */
+    height: auto; /* Maintain the aspect ratio of the images */
+    margin-right: 10px; /* Adjust the margin between images as needed */
+  }
+  
+  /* Remove the right margin from the last image in the row */
+  .image-row img:last-child {
+    margin-right: 0;
+  }

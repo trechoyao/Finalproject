@@ -1,0 +1,139 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1477936432016-8172ed08637e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHVwcHklMjBjdXRlJTIwcGljcyUyMGJsYWNrJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.background{
+    width: 100px;
+    height: 100px;
+   
+    
+}
+.aboutme-container{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%,-50%);
+}
+
+.aboutme-text{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    color: rgb(17, 16, 16);
+}
+
+.aboutme-photo{
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-right: 20px;
+
+}
+
+img{
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+    
+}
+
+.moto{
+    margin-left: 10px;
+    background-color: rgb(228, 216, 216);
+    padding: 10px;
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.right{
+    animation-duration: 1.5s;
+    animation-name: slideright;
+}
+
+.left{
+    animation-duration: 1.5s;
+    animation-name: slideleft;
+}
+
+@keyframes slideleft {
+    from{
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes slideright {
+    from{
+        transform: translateY(50%);
+        opacity: 0;
+    }
+}
+.hobbies{
+    margin-top: 500px;
+    margin-right: 700px;
+}
+
+.hobby{
+    width: 1247px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 630px;
+    color: white;
+    text-align: center;
+    font: bold;
+    font-size: 40px;
+   
+}
+header {
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 rgb(19, 18, 18);
+    top: 0;
+    left: 0;
+    font-family: 'Dealerplate', sans-serif;
+}
+
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: rgb(247, 247, 246);
+    text-decoration: none;
+}
+p{
+    color: rgb(223, 229, 235);
+    height: 100px;
+    width: auto;
+}
+
+h1{
+    color: aliceblue;
+}
+.logout{
+    margin-left: 1000px;
+}

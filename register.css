@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/464/040/original/vector-dog-seamless-pattern-theme-bone-paw-foot-print-for-use-as-wallpaper-or-background.jpg");
+}
+
+.login-container{
+    width: 320px;
+    height: auto;
+    color: rgb(8, 8, 8);
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    backdrop-filter: drop-shadow(4px 4px 10px orange);
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    
+
+}
+
+form *{
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+input{
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    width: 96%;
+    margin: 10px 0;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.939);
+}
+input:focus, input:hover{
+    background-color: whites;
+    color: rgb(26, 25, 25);
+    box-shadow: 0px 0px 5px orange;
+}
+
+input::placeholder:focus{
+    color: rgb(255, 255, 255);
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+button{
+    margin-top: 10px;
+    width: 100%;
+    height: 52px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:active{
+    transform: scale(0.96);
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+    border: 2px solid aquamarine;
+}
+header {
+    background-color: rgb(245, 239, 241);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 rgb(249, 249, 224);
+    top: 0;
+    left: 0;
+    font-family: Georgia, serif;
+}
+
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: rgb(14, 14, 13);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

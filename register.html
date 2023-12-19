@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/dealerplate" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <script src="loginpage.js"></script>
+
+                
+    <title>Register</title>
+</head>
+<body onload="setTimeout('hide()', 1500)">
+    <div class="preload" id="hide">
+        <img src="loader-dog.gif" alt="">
+    </div>
+    <div class="background main">
+           <form class="login-container" id="signup" action="http://localhost/Finalproject/register.php" method="post">
+                <h1>REGISTER</h1>
+                    <label for="name">Username</label>
+                    <input type="text" name="name" id="username2" autocomplete="off" required>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" autocomplete="off" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password2" autocomplete="off" required>
+                <button>Register</button>
+            <a class="link" href="loginpage.html">Already Have An Account? Log In Here</a>
+        </form>
+    </div>
+</body>
+    <style>
+        .background{
+            background-image: url(https://media.istockphoto.com/id/138097261/photo/dog-golden-retriever-puppies.jpg?s=612x612&w=0&k=20&c=ATslWMeHsJOsebU7OyCQ1qGxDTmKhWbhgsoxV7CvGVk=);
+        }
+
+        body{
+            font-family: 'Dealerplate', sans-serif;
+            font-size: 48px;
+            text-shadow: 4px 4px 4px #aaa;
+            padding: 0;
+            margin: 0;
+            width: 100vw;
+            height: 100vh;    
+        }
+
+        #main{
+            display: none;
+        }
+
+        .preload{
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #282828;
+        }
+    </style>
+</html>
